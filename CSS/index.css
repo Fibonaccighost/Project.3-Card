@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 1px solid rgb(120 139 156);
+    background-color: whitesmoke;
+    display: flex;
+    height: 400px;
+    width: 200px;
+    flex-direction: column;
+    margin: 10px auto;
+    position: relative;
+}
+
+.box{
+    border: 3px solid rgb(177, 170, 170);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+#box1{
+    background-image: url(https://media.istockphoto.com/id/485371557/photo/twilight-at-spirit-island.webp?b=1&s=170667a&w=0&k=20&c=vpytXwo5d2YieC64i67aH9D0L5x-4Uow8GbpzuonCIY=);
+    background-size: cover; 
+    display: block;
+    margin: 2px auto;
+    padding: 0px;
+    width: 95%;
+    height: 150px;
+}
+
+#box2{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    margin: 10px;
+    position: absolute;
+    top: 155px;
+}
+
+#box3{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    margin: 10px;
+    position: absolute;
+    left: 70px;
+    top: 155px;
+}
+
+#box4{
+    width: 92%;
+    left: 3px;
+    position: absolute;
+    height: 18px;
+    top: 200px;
+    padding: 3px;
+}
+
+#box5{
+    width: 95%;
+    position: absolute;
+    height: 130px;
+    top: 235px;
+    margin: 2px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 3px;
+    left: 5px;
+}
+
+#box6{
+    position: absolute;
+    width: 76px;
+    height: 25px;
+    left: 60px;
+    top: 320px;
+    margin: 50px auto;
+    background-color: rgb(160, 160, 204);
+}
+
+#box6 a{
+    text-decoration: none;
+    padding: 2px;
+}
